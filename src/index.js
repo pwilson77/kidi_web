@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// fonts
+import './fonts/GothamBold.ttf';
+import './fonts/GothamBoldItalic.ttf';
+import './fonts/GothamLight.ttf';
+import './fonts/GothamMedium.ttf';
+import './fonts/GothamMediumItalic.ttf';
+import './fonts/Gotham-Black.otf';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
