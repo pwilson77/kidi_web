@@ -111,7 +111,7 @@ function DesktopHeader() {
             </Link>
           </li>
           <li>
-            <Link to='blog'>
+            <Link to='/blog'>
               <p className='desktop-nav-item'>BLOG</p>
             </Link>
           </li>

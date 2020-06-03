@@ -34,7 +34,9 @@ function Footer() {
         <h1 className='footer-about-title'>Info</h1>
         <ul>
           <li>
-            <p className='footer-list'>Blog</p>
+            <Link to='/blog'>
+              <p className='footer-list'>Blog</p>
+            </Link>
           </li>
           <li>
             <Link to='/blog'>
