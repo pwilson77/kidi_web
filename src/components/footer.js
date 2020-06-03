@@ -37,10 +37,14 @@ function Footer() {
             <p className='footer-list'>Blog</p>
           </li>
           <li>
-            <p className='footer-list'>News of the University</p>
+            <Link to='/blog'>
+              <p className='footer-list'>News of the University</p>
+            </Link>
           </li>
           <li>
-            <p className='footer-list'>News of the Department</p>
+            <Link to='/blog'>
+              <p className='footer-list'>News of the Department</p>
+            </Link>
           </li>
         </ul>
       </div>
@@ -48,10 +52,14 @@ function Footer() {
         <h1 className='footer-about-title'>Courses</h1>
         <ul>
           <li>
-            <p className='footer-list'>Food production</p>
+            <Link to='/food'>
+              <p className='footer-list'>Food production</p>
+            </Link>
           </li>
           <li>
-            <p className='footer-list'>Cloth production</p>
+            <Link to='/cloth'>
+              <p className='footer-list'>Cloth production</p>
+            </Link>
           </li>
         </ul>
       </div>
@@ -59,10 +67,14 @@ function Footer() {
         <h1 className='footer-about-title'>Get in touch</h1>
         <ul>
           <li>
-            <p className='footer-list'>Contact support</p>
+            <Link to='/contact'>
+              <p className='footer-list'>Contact support</p>
+            </Link>
           </li>
           <li>
-            <p className='footer-list'>Contact help</p>
+            <Link className='/contact'>
+              <p className='footer-list'>Contact help</p>
+            </Link>
           </li>
         </ul>
         <div className='footer-icons'>

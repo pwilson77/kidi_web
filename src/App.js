@@ -13,6 +13,7 @@ import Gallery from './pages/gallery';
 import Restaurant from './pages/restaurant';
 import Food from './pages/food';
 import Contact from './pages/contact';
+import Cloth from './pages/cloth';
 import Header from  './components/header';
 import Footer from './components/footer';
 
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route exact path='/contact'>
             <Contact />
+          </Route>
+          <Route exact path='/cloth'>
+            <Cloth />
           </Route>
           <Route exact path='/restaurant'>
             <Restaurant />
