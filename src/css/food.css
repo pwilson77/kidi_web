@@ -84,15 +84,13 @@
 }
 
 .menu-item {
-  margin: 80px;
+  margin: 50px;
   position: relative;
 }
 
 .price-tag1 {
-  position: absolute;
-  top: 210px;
   width: 45vw;
-  height: 10vh;
+  height: 20vh;
   background-color: #ff9000;
   display: flex;
   justify-content: center;
@@ -101,10 +99,8 @@
 }
 
 .price-tag2 {
-  position: absolute;
-  top: 210px;
   width: 45vw;
-  height: 10vh;
+  height: 20vh;
   background-color: #8d0505;
   display: flex;
   justify-content: center;
@@ -125,13 +121,14 @@
   font-size: xx-large;
   line-height: 1.2;
   letter-spacing: normal;
+  text-align: center;
 }
 
 .order-section {
   height: 40vh;
   background-position: center;
   background-size: cover;
-  margin: 40px;
+  margin-bottom: 40px;
 }
 
 .food-gallery-section {
@@ -139,6 +136,7 @@
   flex-direction: column;
   margin: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .food-gallery {
@@ -171,13 +169,13 @@
 
   .food-about {
     flex-direction: row;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .food-about-desc {
-    width: 30vw;
-    height: 40vh;
+    width: 40vw;
+    height: 50vh;
     padding: 30px;
   }
 
@@ -186,12 +184,59 @@
   }
 
   .food-about-text {
-    font-size: large;
+    font-size: medium;
     font-weight: lighter;
   }
 
   .food-about-image {
-    width: 35vw;
-    height: 55vh;
+    width: 45vw;
+    height: 65vh;
+  }
+
+  .food-menu-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-image {
+    width: 15vw;
+  }
+
+  .price-tag1 {
+    width: 15vw;
+    height: 15vh;
+  }
+  
+  .price-tag2 {
+    width: 15vw;
+    height: 15vh;
+  }
+
+  .food-menu-title {
+    font-size: xx-large;
+  }
+
+  .order-section {
+    height: 50vh;
+  }
+
+  .food-gallery-section {
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .food-gallery {
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-width: 1086px) {
+  .food-about-desc {
+    width: 25vw;
+  }
+
+  .food-about-image {
+    width: 30vw;
   }
 }

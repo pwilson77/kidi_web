@@ -50,7 +50,7 @@ function Food() {
       </div>
       <div className='food-menu'>
         <h1 className='food-menu-title'>MENU</h1>
-        <div className='food-menu-'>
+        <div className='food-menu-1'>
           <div className='menu-item'>
             <img src={require('../assets/images/food/07.png')} className='menu-image'/>
             <div className='price-tag1'>
@@ -73,7 +73,7 @@ function Food() {
             </div>
           </div>
         </div>
-        <div className='food-menu-'>
+        <div className='food-menu-1'>
           <div className='menu-item'>
             <img src={require('../assets/images/food/09.png')} className='menu-image'/>
             <div className='price-tag1'>
@@ -99,7 +99,7 @@ function Food() {
       </div>
       <div className='order-section' style={{'backgroundImage': `url(${order})`}}>
       </div>
-      <div style={{'display': 'flex', 'justifyContent': 'center'}}>
+      <div style={{'display': 'flex', 'justifyContent': 'center', 'marginTop': '150px'}}>
         <h1 className='food-menu-title'>
           GALLERY
         </h1>
