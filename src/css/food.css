@@ -1,0 +1,111 @@
+.f-banner{
+  height: 40vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.f-banner-title {
+  font-weight: bold;
+  color: white;
+  font-size: 64px;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+.f-banner-text {
+  font-size: large;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: white;
+}
+
+.f-banner-link {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.f-link {
+  color: black;
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.f-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.f-about-title {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+.f-about-text {
+  color: black;
+  font-weight: lighter;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-size: small;
+}
+
+.f-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.f-image {
+  width: 65vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .f-banner-title {
+    font-size: 90px;
+  }
+
+  .f-banner-text {
+    font-size: x-large;
+  }
+
+  .f-gallery {
+    flex-direction: row;
+  }
+
+  .f-image {
+    width: 20vw;
+  }
+
+  .f-about {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .f-about-text {
+    font-size: medium;
+  }
+}
