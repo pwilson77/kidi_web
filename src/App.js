@@ -12,6 +12,7 @@ import Home from './pages/home';
 import Gallery from './pages/gallery';
 import Restaurant from './pages/restaurant';
 import Food from './pages/food';
+import Contact from './pages/contact';
 import Header from  './components/header';
 import Footer from './components/footer';
 
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route exact path='/food'>
             <Food />
+          </Route>
+          <Route exact path='/contact'>
+            <Contact />
           </Route>
           <Route exact path='/restaurant'>
             <Restaurant />
