@@ -15,6 +15,7 @@ import Food from './pages/food';
 import Contact from './pages/contact';
 import Cloth from './pages/cloth';
 import Blog from './pages/blog';
+import Alumnia from './pages/alumnia';
 import Header from  './components/header';
 import Footer from './components/footer';
 
@@ -53,6 +54,9 @@ function App() {
           </Route>
           <Route exact path='/blog'>
             <Blog />
+          </Route>
+          <Route exact path='/alumnia'>
+            <Alumnia />
           </Route>
           <Route exact path='/restaurant'>
             <Restaurant />

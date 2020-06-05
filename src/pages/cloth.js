@@ -3,6 +3,7 @@ import React from 'react';
 import '../css/cloth.css';
 import banner from '../assets/images/c-prod/00.png';
 import cloth from '../assets/images/c-prod/01.png';
+import bg from '../assets/images/c-prod/13.png';
 
 const row1 = [
   require('../assets/images/c-prod/03.png'),
@@ -29,27 +30,39 @@ const row4 = [
 
 function Cloth() {
   return (
-    <div className='cloth-container'>
+    <div className='cloth-container' style={{'backgroundImage': `url(${bg})`}}>
       <div className='cloth-banner' style={{'backgroundImage': `url(${banner})`}}>
         <img src={cloth} className='cloth' />
         <h1 className='banner-title'>PRODUCTION</h1>
       </div>
-      {/* <div className='about-section'>
-        <div className='about-one'>
-          <div className='about-desc'>
-            <h1 className='about-title'>
-              About Us
-            </h1>
-            <p className='about-text'>
-              The Clothing Production Unit will offer sewing and
-              embroidery services for the production of items such as
-              academic gowns, choir robes, corporate uniforms, classic shirts,
-              African wear, among others.
-            </p>
+      <div style={{'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'}}>
+        <div className='c-about-section'>
+          <div className='c-about-one'>
+            <div className='c-about-desc'>
+              <h1 className='c-about-title'>
+                About Us
+              </h1>
+              <p className='c-about-text'>
+                The Clothing Production Unit will offer sewing and
+                embroidery services for the production of items such as
+                academic gowns, choir robes, corporate uniforms, classic shirts,
+                African wear, among others.
+              </p>
+            </div>
+            <img src={require('../assets/images/c-prod/A0.png')} className='about-image-1' />
           </div>
-          <img src={require('../assets/images/')}/>
+          <div className='c-about-two'>
+            <img src={require('../assets/images/c-prod/A00.png')} className='about-image-2' />
+            <div className='c-about-desc'>
+              <p className='c-about-text-1'>
+                The unit consists of two offices for the Coordinator and Administrator, common room
+                for workers, fitting and store rooms, sewing, cutting, ironing/pressing and 
+                embroidery sections.
+              </p>
+            </div>
+          </div>
         </div>
-      </div> */}
+      </div>
       <div className='c-gallery'>
         <h1 className='c-title'>Gallery</h1>
         <div className='gallery-row'>

@@ -1,0 +1,59 @@
+.alumnia-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.a-banner {
+  width: 50vw;
+}
+
+.alumnia-about {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alum-about-title {
+  margin-top: 20px;
+  letter-spacing: normal;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.alum-about-text {
+  letter-spacing: normal;
+  line-height: 1.2;
+  font-size: small;
+  text-align: center;
+}
+
+.payment-title {
+  margin-top: 20px;
+  letter-spacing: normal;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .alum-about-text {
+    width: 60vw;
+  }
+
+  .a-banner {
+    width: 20vw;
+  }
+}
