@@ -45,6 +45,8 @@
   line-height: 1.2;
   letter-spacing: normal;
   margin: 10px;
+  font-family: DancingScript;
+  font-size: 30px;
 }
 
 .c-about-text {
@@ -86,6 +88,7 @@
 .c-title {
   font-size: xx-large;
   color: black;
+  font-family: DancingScript;
 }
 
 .gallery-row {
@@ -160,9 +163,13 @@
     width: 40vw;
   }
 
+  .c-title {
+    font-size: xx-large;
+  }
+
   .c-about-title {
     margin-top: 15px;
-    font-size: medium;
+    font-size: xx-large;
   }
   
   .about-image-2 {
