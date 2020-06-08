@@ -6,10 +6,12 @@ a {
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 li {
   margin: 0;
+  list-style-type: none;
 }
 
 .footer-container {
@@ -35,6 +37,8 @@ li {
   font-size: large;
   color: white;
   margin-bottom: 20px;
+  letter-spacing: normal;
+  line-height: 1.2;
 }
 
 .footer-text {

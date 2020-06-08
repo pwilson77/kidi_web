@@ -44,9 +44,9 @@ function MobileHeader() {
             </Link>
           </li>
           <li>
-            <Link to='/food'>
+            <Link to='/alumnia'>
               <button onClick={toggleMenu} className='menu-btn'>
-                ALUMNIA
+                ALUMNA
               </button>
             </Link>
           </li>
@@ -100,15 +100,13 @@ function DesktopHeader() {
           </li>
           <li>
             <Link to='/alumnia'>
-              <p className='desktop-nav-item'>ALUMNIA</p>
+              <p className='desktop-nav-item'>ALUMNA</p>
             </Link>
           </li>
         </ul>
         <ul className='desktop-nav-list'>
-        <li>
-            <Link to='/projects'>
-              <p className='desktop-nav-item'>PROJECTS</p>
-            </Link>
+          <li>
+            <p className='desktop-nav-item'>PROJECTS</p>
           </li>
           <li>
             <Link to='/blog'>

@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, DancingScript, Gotham;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;;
@@ -17,6 +17,11 @@ code {
 @font-face {
   font-family: 'Gotham';
   src: local('GothamMedium'), url(./fonts/GothamMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DancingScript';
+  src: local('DancingScript-Regular'), url(./fonts/DancingScript-Regular.ttf) format('truetype');
 }
 
 * {

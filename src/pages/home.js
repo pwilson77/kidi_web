@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import banner from '../assets/images/01.png';
 import zip from '../assets/images/08.png';
@@ -13,15 +14,21 @@ function Home() {
       </div>
       <div className='three-peat'>
         <div className='three-peat-item'>
-          <img src={require('../assets/images/05.png')} className='three-image' />
+          <Link to='/cloth'>
+            <img src={require('../assets/images/05.png')} className='three-image' />
+          </Link>
           <p className='three-text'>CLOTHING</p>
         </div>
         <div className='three-peat-item'>
-          <img src={require('../assets/images/06.png')} className='three-image' />
+          <Link to='/food'>
+            <img src={require('../assets/images/06.png')} className='three-image' />
+          </Link>
           <p className='three-text'>FOOD PRODUCTION</p>
         </div>
         <div className='three-peat-item'>
-          <img src={require('../assets/images/07.png')} className='three-image' />
+          <Link to='/'>
+            <img src={require('../assets/images/07.png')} className='three-image' />
+          </Link>
           <p className='three-text'>DECORATION</p>
         </div>
       </div>
